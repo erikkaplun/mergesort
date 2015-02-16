@@ -38,6 +38,7 @@ test-suite test-mergesort
   type:              detailed-0.9
   hs-source-dirs:    test
   test-module:       TestDetailed
+  other-modules:     TestProperties
   default-language:  Haskell2010
   build-depends:     base >=4.7 && <4.8
                    , Cabal == 1.22.0.0
